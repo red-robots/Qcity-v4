@@ -25,6 +25,7 @@ $stickyAdCode = get_field("stickyAdCode","option");
 $stickyAdEnable = get_field("stickyAdEnable","option");
 $is_sticky_on = ( isset($stickyAdEnable) && $stickyAdEnable=='on' ) ? true : false;
 ?>
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
 <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
 <script>
   var googletag = googletag || {};
