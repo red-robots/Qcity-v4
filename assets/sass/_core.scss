@@ -6650,8 +6650,8 @@ body.page-template-page-membership {
 	margin: 20px 0;
 	overflow: hidden;
 	div, iframe {
-		max-width: 100%!important;
-		width: 100%!important;
+		// max-width: 100%!important;
+		// width: 100%!important;
 	}
 }
 
@@ -13159,23 +13159,27 @@ body.single-post,
 		.brown-bar {
 			background: #f1f1f1;
 			padding: 20px 20px;
-			width: 100%;
+			width: 100vw;
 			position: relative;
 			overflow: visible;
+			left: 50%;
+		    right: 50%;
+		    margin-left: -50vw;
+		    margin-right: -50vw;
 			&:before, &:after {
-				content:"";
-				display: block;
-				background: #f1f1f1;
-				width: 100vw;
-				height: 100%;
-				position: absolute;
-				top: 0;
+				// content:"";
+				// display: block;
+				// background: #f1f1f1;
+				// width: 100vw;
+				// height: 100%;
+				// position: absolute;
+				// top: 0;
 			}
 			&:before {
-				left: -45vw;
+				// left: -45vw;
 			}
 			&:after {
-				right: -45vw;
+				// right: -45vw;
 			}
 			div {
 				position: relative;
