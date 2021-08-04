@@ -2617,7 +2617,7 @@ body.single-post #mobileBlocks li.entry .headline a,body.single-post #sidebar-si
 body.single-post #mobileBlocks li.entry .headline a:hover,body.single-post #sidebar-single-post li.entry .headline a:hover,body.archive.category #mobileBlocks li.entry .headline a:hover,body.archive.category #sidebar-single-post li.entry .headline a:hover{color:#924020}
 body.single-post #mobileBlocks li.entry:first-child,body.single-post #sidebar-single-post li.entry:first-child,body.archive.category #mobileBlocks li.entry:first-child,body.archive.category #sidebar-single-post li.entry:first-child{border-top:0}
 body.single-post #mobileBlocks li.entry:last-child .headline,body.single-post #sidebar-single-post li.entry:last-child .headline,body.archive.category #mobileBlocks li.entry:last-child .headline,body.archive.category #sidebar-single-post li.entry:last-child .headline{padding-bottom:0}
-body.single-post .ads_home_leaderboard,body.archive.category .ads_home_leaderboard{max-width:918px;margin:0 auto}
+body.single-post .ads_home_leaderboard,body.archive.category .ads_home_leaderboard{margin:0 auto}
 .stickySidebar{background-color:#FFF;position:relative}
 .stickySidebar #sidebar-single-post{-webkit-transition:all ease .2s;transition:all ease .2s}
 .stickySidebar .helper{width:100%;float:left}
