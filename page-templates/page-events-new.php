@@ -30,8 +30,8 @@ $day2 = $day - 1;
 $day_plus = sprintf('%02s', $day);
 $today = date('Ym') . $day_plus;
 ?>
-
-<div id="primary" class="content-area page-with-poweredby page-job-new pageEventsNew">
+<div class="wrapper">
+<div id="primary" class="content-area-center page-with-poweredby page-job-new pageEventsNew">
 	<main id="main" class="site-main" role="main">
 		<?php while ( have_posts() ) : the_post(); ?>
 			<?php  
@@ -252,7 +252,7 @@ $today = date('Ym') . $day_plus;
 									
 									$postsByCategory = new WP_Query($cat_args); ?>
 
-									<div id="primary" class="content-area-event more-happenings-section fw-left">
+									<div id="primary" class="content-area-center more-happenings-section fw-left">
 											<main id="main" class="site-main" role="main">
 
 												<?php if ($currentCatName) { ?>
@@ -469,7 +469,7 @@ $today = date('Ym') . $day_plus;
 		
 	</main>
 </div>
-
+</div>
 <?php get_template_part('template-parts/post-event-form'); ?>
 
 <script type="text/javascript">

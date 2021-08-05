@@ -1181,6 +1181,21 @@ body.category {
 		/*width: 1200px;*/
 	}
 }
+.content-area-center {
+	width: 100%;
+	margin: 0px auto;
+	overflow: hidden;
+	@media screen and (min-width: $tabwidth) {
+		width: 68%;
+		float: none;
+		// margin: 0 auto;
+		padding-bottom: 50px;
+		min-height: 800px;
+	}
+	@media screen and (min-width: $deskwidth) {
+		/*width: 1200px;*/
+	}
+}
 .widget-area {
 	width: 100%;
 	margin: 0px auto;
