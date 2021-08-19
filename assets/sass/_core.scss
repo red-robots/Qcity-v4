@@ -12675,7 +12675,7 @@ body.single.single-post {
 .home-ad-fullwidth {
 	width: 100%;
 	float: left;
-	margin: 20px 0;
+	margin: 40px 0 50px 0;
 	text-align: center;
 	position: relative;
 	@include flexgroup();
@@ -13162,7 +13162,7 @@ body.single-post,
 		margin: 0 auto;
 		overflow: visible;
 		* {
-			overflow: visible!important;
+			// overflow: visible!important;
 		}
 		.wp-block-embed__wrapper {
 			margin-top: 30px;

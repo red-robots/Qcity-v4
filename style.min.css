@@ -2923,7 +2923,7 @@ body.single .sharethis-inline-share-buttons.stick-to-bottom,body.single.single-p
 .text-and-image-div .infoblock .textcol .heading h2{color:#924020;margin:0;font-size:25px;line-height:1.1}
 .text-and-image-div .infoblock .textcol .heading .t2{margin:0}
 .subscribe-wrap.home-mission-bar{padding:20px 0 10px}
-.home-ad-fullwidth{width:100%;float:left;margin:20px 0;text-align:center;position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+.home-ad-fullwidth{width:100%;float:left;margin:40px 0 50px 0;text-align:center;position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
 .home-ad-fullwidth.home-block-AD2{margin:30px 0}
 .home-ad-fullwidth.home-block-AD3{top:0}
 .events-breadcrumbs{font-size:14px;margin-top:20px;text-align:center}
@@ -2990,7 +2990,6 @@ body.logged-in.admin-bar .content-area-full.top-logo-page #main .map-div.title-g
 #stickyBottomAd.show-ad #stickyBottomAdContent{opacity:1}
 #stickyBottomAd.hide-ad{max-height:0;height:0}
 body.single-post .single-page,#primary.single-post-newlayout .single-page{max-width:100% !important;width:100% !important;margin:0 auto;overflow:visible}
-body.single-post .single-page *,#primary.single-post-newlayout .single-page *{overflow:visible !important}
 body.single-post .single-page .wp-block-embed__wrapper,#primary.single-post-newlayout .single-page .wp-block-embed__wrapper{margin-top:30px;margin-bottom:30px}
 body.single-post .single-page .wp-block-embed .wp-block-embed__wrapper>div,#primary.single-post-newlayout .single-page .wp-block-embed .wp-block-embed__wrapper>div{margin:0 auto}
 body.single-post .single-page .brown-bar,#primary.single-post-newlayout .single-page .brown-bar{background:#f1f1f1;padding:20px 20px;width:100vw;position:relative;overflow:visible;left:50%;right:50%;margin-left:-50vw;margin-right:-50vw}
