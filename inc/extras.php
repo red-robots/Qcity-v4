@@ -313,8 +313,11 @@ function qcity_add_incontent_ad( $content )
     if( is_single() && ( get_post_type() === 'post' ) && !$hide_ads ){
         $content_block  = explode('<p>',$content);
         // changed after renaming the ads...
-        $ads_6th        = get_ads_script('event-zone-1');
-        $ads_12th       = get_ads_script('health-zone-1');
+        $ads_6th        = get_ads_script('right-rail');
+        $ads_12th       = get_ads_script('small-ad-right');
+        // changed 8-190-2012 for instory ads.
+        // $ads_6th        = get_ads_script('event-zone-1');
+        // $ads_12th       = get_ads_script('health-zone-1');
         // $ads_6th        = get_ads_script('single-article-after-6th-paragraph');
         // $ads_12th       = get_ads_script('single-article-after-12th-paragraph');
         if( !empty($content_block[7]) && $ads_6th)
